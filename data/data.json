@@ -1,0 +1,107 @@
+[
+    {
+        "picture": "https://example.com/sports_car1.jpg",
+        "name": "Speedy Sports Car",
+        "seller": {
+          "name": "Toy Speed",
+          "email": "sales@toyspeed.com"
+        },
+        "category": "Sports Car",
+        "price": 24.99,
+        "rating": 4.4,
+        "quantity": 7,
+        "detail": "The Speedy Sports Car is a sleek and fast toy car designed for racing enthusiasts. Its aerodynamic design and smooth wheels allow for high-speed action. Suitable for children ages 4 and up."
+      },
+      {
+        "picture": "https://example.com/sports_car2.jpg",
+        "name": "Turbocharged Roadster",
+        "seller": {
+          "name": "Playful Wheels",
+          "email": "info@playfulwheels.com"
+        },
+        "category": "Sports Car",
+        "price": 19.99,
+        "rating": 4.2,
+        "quantity": 5,
+        "detail": "The Turbocharged Roadster is a thrilling toy car that combines style and speed. Its vibrant colors and sleek design make it stand out on the road. Suitable for children ages 3 and up."
+      },
+      {
+        "picture": "https://example.com/police_car1.jpg",
+        "name": "Police Pursuit Car",
+        "seller": {
+          "name": "Toy Police",
+          "email": "info@toypolice.com"
+        },
+        "category": "Police Car",
+        "price": 19.99,
+        "rating": 4.1,
+        "quantity": 3,
+        "detail": "The Police Pursuit Car is a toy police vehicle equipped with sirens and lights. Kids can pretend to chase down the bad guys and maintain law and order. Suitable for children ages 3 and up."
+      },
+      {
+        "picture": "https://example.com/police_car2.jpg",
+        "name": "Patrol Cruiser",
+        "seller": {
+          "name": "Kids' Toys Haven",
+          "email": "sales@kidstoyshaven.com"
+        },
+        "category": "Police Car",
+        "price": 14.99,
+        "rating": 4.3,
+        "quantity": 6,
+        "detail": "The Patrol Cruiser is a realistic toy police car that allows children to imagine being on patrol. It features authentic police decals and working doors. Suitable for children ages 4 and up."
+      },
+      {
+        "picture": "https://example.com/truck1.jpg",
+        "name": "Mighty Monster Truck",
+        "seller": {
+          "name": "Toy Trucks Inc.",
+          "email": "sales@toytrucksinc.com"
+        },
+        "category": "Truck",
+        "price": 34.99,
+        "rating": 4.7,
+        "quantity": 6,
+        "detail": "The Mighty Monster Truck is a rugged and powerful toy truck designed to handle any obstacle. Its oversized tires and durable construction make it perfect for off-road adventures. Suitable for children ages 5 and up."
+      },
+      {
+        "picture": "https://example.com/truck2.jpg",
+        "name": "Construction Hauler",
+        "seller": {
+          "name": "Playtime Toys",
+          "email": "info@playtimetoys.com"
+        },
+        "category": "Truck",
+        "price": 26.99,
+        "rating": 4.4,
+        "quantity": 8,
+        "detail": "The Construction Hauler is a toy truck built for heavy-duty play. It comes with detachable cargo and realistic construction site accessories. Suitable for children ages 4 and up."
+      },
+      {
+        "picture": "https://example.com/regular_car1.jpg",
+        "name": "Classic Toy Car",
+        "seller": {
+          "name": "Toy World",
+          "email": "sales@toyworld.com"
+        },
+        "category": "Regular",
+        "price": 14.99,
+        "rating": 3.9,
+        "quantity": 10,
+        "detail": "The Classic Toy Car is a timeless and versatile toy that sparks imaginative play. With its simple design and smooth rolling, it's great for everyday fun. Suitable for children ages 3 and up."
+      },
+      {
+        "picture": "https://example.com/regular_car2.jpg",
+        "name": "City Cruiser",
+        "seller": {
+          "name": "Kids' Playthings",
+          "email": "info@kidsplaythings.com"
+        },
+        "category": "Regular",
+        "price": 12.99,
+        "rating": 4.0,
+        "quantity": 12,
+        "detail": "The City Cruiser is a classic toy car that lets kids explore the city streets of their imagination. Its compact size and smooth movement make it ideal for indoor play. Suitable for children ages 3 and up."
+      }
+                                                
+]
