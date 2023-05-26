@@ -35,6 +35,12 @@ async function run() {
         res.send(result);
     })
 
+    app.get('/allToys/sportsCar', async(req,res)=>{
+      const t= 'Sports Car';
+      const result = await toysCollection.find({category: t}).toArray();
+
+    res.send(result);
+    })
 
 
 
