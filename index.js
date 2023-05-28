@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 require('dotenv').config()
 const app = express();
 const port = process.env.PORT || 5000;
@@ -35,8 +35,45 @@ async function run() {
         res.send(result);
     })
 
+    // app.get("/singleJob/:id", async (req, res) => {
+    //   console.log(req.params.id);
+    //   const jobs = await jobsCollection.findOne({
+    //     _id: new ObjectId(req.params.id),
+    //   });
+    //   res.send(jobs);
+    // });
+    
+    app.get("/toys/:id",async (req, res) => {
+      console.log(req.params.id);
+
+      const toy = await toysCollection.findOne({
+        _id: new ObjectId(req.params.id),
+      })
+
+      res.send(toy);
+      
+    });
+
     app.get('/allToys/sportsCar', async(req,res)=>{
       const t= 'Sports Car';
+      const result = await toysCollection.find({category: t}).toArray();
+
+    res.send(result);
+    })
+    app.get('/allToys/policeCar', async(req,res)=>{
+      const t= 'Police Car';
+      const result = await toysCollection.find({category: t}).toArray();
+
+    res.send(result);
+    })
+    app.get('/allToys/regularCar', async(req,res)=>{
+      const t= 'Regular';
+      const result = await toysCollection.find({category: t}).toArray();
+
+    res.send(result);
+    })
+    app.get('/allToys/truck', async(req,res)=>{
+      const t= 'Truck';
       const result = await toysCollection.find({category: t}).toArray();
 
     res.send(result);
