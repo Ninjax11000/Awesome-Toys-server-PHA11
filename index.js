@@ -103,7 +103,7 @@ async function run() {
     });
 
     app.get('/myToys/:email',verifyJWT, async(req,res)=>{
-      const decoded=req.decoded.loggedUser;
+      const decoded=req.decoded;
       const email=req.params.email;
       console.log(email, decoded);
       if(decoded.email!== email) return res.status(403).send({error: true, message: 'forbidden access'});
