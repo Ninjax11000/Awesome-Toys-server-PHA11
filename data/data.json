@@ -1,107 +1,353 @@
 [
-    {
-        "picture": "https://example.com/sports_car1.jpg",
-        "name": "Speedy Sports Car",
-        "seller": {
-          "name": "Toy Speed",
-          "email": "sales@toyspeed.com"
-        },
-        "category": "Sports Car",
-        "price": 24.99,
-        "rating": 4.4,
-        "quantity": 7,
-        "detail": "The Speedy Sports Car is a sleek and fast toy car designed for racing enthusiasts. Its aerodynamic design and smooth wheels allow for high-speed action. Suitable for children ages 4 and up."
-      },
-      {
-        "picture": "https://example.com/sports_car2.jpg",
-        "name": "Turbocharged Roadster",
-        "seller": {
-          "name": "Playful Wheels",
-          "email": "info@playfulwheels.com"
-        },
-        "category": "Sports Car",
-        "price": 19.99,
-        "rating": 4.2,
-        "quantity": 5,
-        "detail": "The Turbocharged Roadster is a thrilling toy car that combines style and speed. Its vibrant colors and sleek design make it stand out on the road. Suitable for children ages 3 and up."
-      },
-      {
-        "picture": "https://example.com/police_car1.jpg",
-        "name": "Police Pursuit Car",
-        "seller": {
-          "name": "Toy Police",
-          "email": "info@toypolice.com"
-        },
-        "category": "Police Car",
-        "price": 19.99,
-        "rating": 4.1,
-        "quantity": 3,
-        "detail": "The Police Pursuit Car is a toy police vehicle equipped with sirens and lights. Kids can pretend to chase down the bad guys and maintain law and order. Suitable for children ages 3 and up."
-      },
-      {
-        "picture": "https://example.com/police_car2.jpg",
-        "name": "Patrol Cruiser",
-        "seller": {
-          "name": "Kids' Toys Haven",
-          "email": "sales@kidstoyshaven.com"
-        },
-        "category": "Police Car",
-        "price": 14.99,
-        "rating": 4.3,
-        "quantity": 6,
-        "detail": "The Patrol Cruiser is a realistic toy police car that allows children to imagine being on patrol. It features authentic police decals and working doors. Suitable for children ages 4 and up."
-      },
-      {
-        "picture": "https://example.com/truck1.jpg",
-        "name": "Mighty Monster Truck",
-        "seller": {
-          "name": "Toy Trucks Inc.",
-          "email": "sales@toytrucksinc.com"
-        },
-        "category": "Truck",
-        "price": 34.99,
-        "rating": 4.7,
-        "quantity": 6,
-        "detail": "The Mighty Monster Truck is a rugged and powerful toy truck designed to handle any obstacle. Its oversized tires and durable construction make it perfect for off-road adventures. Suitable for children ages 5 and up."
-      },
-      {
-        "picture": "https://example.com/truck2.jpg",
-        "name": "Construction Hauler",
-        "seller": {
-          "name": "Playtime Toys",
-          "email": "info@playtimetoys.com"
-        },
-        "category": "Truck",
-        "price": 26.99,
-        "rating": 4.4,
-        "quantity": 8,
-        "detail": "The Construction Hauler is a toy truck built for heavy-duty play. It comes with detachable cargo and realistic construction site accessories. Suitable for children ages 4 and up."
-      },
-      {
-        "picture": "https://example.com/regular_car1.jpg",
-        "name": "Classic Toy Car",
-        "seller": {
-          "name": "Toy World",
-          "email": "sales@toyworld.com"
-        },
-        "category": "Regular",
-        "price": 14.99,
-        "rating": 3.9,
-        "quantity": 10,
-        "detail": "The Classic Toy Car is a timeless and versatile toy that sparks imaginative play. With its simple design and smooth rolling, it's great for everyday fun. Suitable for children ages 3 and up."
-      },
-      {
-        "picture": "https://example.com/regular_car2.jpg",
-        "name": "City Cruiser",
-        "seller": {
-          "name": "Kids' Playthings",
-          "email": "info@kidsplaythings.com"
-        },
-        "category": "Regular",
-        "price": 12.99,
-        "rating": 4.0,
-        "quantity": 12,
-        "detail": "The City Cruiser is a classic toy car that lets kids explore the city streets of their imagination. Its compact size and smooth movement make it ideal for indoor play. Suitable for children ages 3 and up."
-      }
-                                                
+  {
+    "picture": "https://i.ibb.co/X2JtPSn/Speedy.jpg",
+    "name": "Speedy Sports Car",
+    "seller": {
+      "name": "Toy Speed",
+      "email": "sales@toyspeed.com"
+    },
+    "category": "Toy Cars",
+    "price": 24.99,
+    "rating": 4.4,
+    "quantity": 7,
+    "detail": "The Speedy Sports Car is a sleek and fast toy car designed for racing enthusiasts. Its aerodynamic design and smooth wheels allow for high-speed action. Suitable for children ages 4 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/ncZ7G3H/Roadstar.jpg",
+    "name": "Turbocharged Roadster",
+    "seller": {
+      "name": "Playful Wheels",
+      "email": "info@playfulwheels.com"
+    },
+    "category": "Toy Cars",
+    "price": 19.99,
+    "rating": 4.2,
+    "quantity": 5,
+    "detail": "The Turbocharged Roadster is a thrilling toy car that combines style and speed. Its vibrant colors and sleek design make it stand out on the road. Suitable for children ages 3 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/NKZ3VsY/Police.jpg",
+    "name": "Police Pursuit Car",
+    "seller": {
+      "name": "Toy Police",
+      "email": "info@toypolice.com"
+    },
+    "category": "Toy Cars",
+    "price": 19.99,
+    "rating": 4.1,
+    "quantity": 3,
+    "detail": "The Police Pursuit Car is a toy police vehicle equipped with sirens and lights. Kids can pretend to chase down the bad guys and maintain law and order. Suitable for children ages 3 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/0FkS52Z/Patrol.jpg",
+    "name": "Patrol Cruiser",
+    "seller": {
+      "name": "Kids' Toys Haven",
+      "email": "sales@kidstoyshaven.com"
+    },
+    "category": "Toy Cars",
+    "price": 14.99,
+    "rating": 4.3,
+    "quantity": 6,
+    "detail": "The Patrol Cruiser is a realistic toy police car that allows children to imagine being on patrol. It features authentic police decals and working doors. Suitable for children ages 4 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/mB86kfY/Monster.jpg",
+    "name": "Mighty Monster Truck",
+    "seller": {
+      "name": "Toy Trucks Inc.",
+      "email": "sales@toytrucksinc.com"
+    },
+    "category": "Toy Cars",
+    "price": 34.99,
+    "rating": 4.7,
+    "quantity": 6,
+    "detail": "The Mighty Monster Truck is a rugged and powerful toy truck designed to handle any obstacle. Its oversized tires and durable construction make it perfect for off-road adventures. Suitable for children ages 5 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/QCSJp3C/hauler.jpg",
+    "name": "Construction Hauler",
+    "seller": {
+      "name": "Playtime Toys",
+      "email": "info@playtimetoys.com"
+    },
+    "category": "Toy Cars",
+    "price": 26.99,
+    "rating": 4.4,
+    "quantity": 8,
+    "detail": "The Construction Hauler is a toy truck built for heavy-duty play. It comes with detachable cargo and realistic construction site accessories. Suitable for children ages 4 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/hsMM0Cs/Classic.jpg",
+    "name": "Classic Toy Car",
+    "seller": {
+      "name": "Toy World",
+      "email": "sales@toyworld.com"
+    },
+    "category": "Toy Cars",
+    "price": 14.99,
+    "rating": 3.9,
+    "quantity": 10,
+    "detail": "The Classic Toy Car is a timeless and versatile toy that sparks imaginative play. With its simple design and smooth rolling, it's great for everyday fun. Suitable for children ages 3 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/ZLh09j5/City1.jpg",
+    "name": "City Cruiser",
+    "seller": {
+      "name": "Kids' Playthings",
+      "email": "info@kidsplaythings.com"
+    },
+    "category": "Toy Cars",
+    "price": 12.99,
+    "rating": 4.0,
+    "quantity": 12,
+    "detail": "The City Cruiser is a classic toy car that lets kids explore the city streets of their imagination. Its compact size and smooth movement make it ideal for indoor play. Suitable for children ages 3 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/QkSYMXD/Spiderman.jpg",
+    "name": "Spider-Man Action Figure",
+    "seller": {
+      "name": "Marvel Toys",
+      "email": "sales@marveltoys.com"
+    },
+    "category": "Action Figures",
+    "price": 19.99,
+    "rating": 4.8,
+    "quantity": 15,
+    "detail": "The Spider-Man action figure brings the iconic Marvel superhero to life. With articulating joints and detailed costume, this toy is perfect for fans of all ages."
+  },
+  {
+    "picture": "https://i.ibb.co/hmbxNNB/Death.png",
+    "name": "Darth Vader Action Figure",
+    "seller": {
+      "name": "Galactic Toys",
+      "email": "sales@galactictoys.com"
+    },
+    "category": "Action Figures",
+    "price": 29.99,
+    "rating": 4.6,
+    "quantity": 10,
+    "detail": "The Darth Vader action figure is a must-have for Star Wars enthusiasts. Immerse yourself in the dark side with this highly detailed and poseable toy."
+  },
+  {
+    "picture": "https://i.ibb.co/mvcb59C/Optimus.jpg",
+    "name": "Optimus Prime Action Figure",
+    "seller": {
+      "name": "Transformers Emporium",
+      "email": "sales@transformersemporium.com"
+    },
+    "category": "Action Figures",
+    "price": 39.99,
+    "rating": 4.5,
+    "quantity": 12,
+    "detail": "Transform and roll out with the Optimus Prime action figure. This Transformers toy features intricate details and the ability to transform from robot to vehicle mode."
+  },
+  {
+    "picture": "https://i.ibb.co/dMn2byL/Captain1.jpg",
+    "name": "Captain America Action Figure",
+    "seller": {
+      "name": "Superhero Collectibles",
+      "email": "sales@superherocollectibles.com"
+    },
+    "category": "Action Figures",
+    "price": 22.99,
+    "rating": 4.7,
+    "quantity": 18,
+    "detail": "Celebrate patriotism with the Captain America action figure. With a shield accessory and realistic detailing, this toy is a great addition to any Marvel collection."
+  },
+  {
+    "picture": "https://i.ibb.co/SJzHRX6/Yoda1.jpg",
+    "name": "Yoda Action Figure",
+    "seller": {
+      "name": "Jedi Emporium",
+      "email": "sales@jediemporium.com"
+    },
+    "category": "Action Figures",
+    "price": 34.99,
+    "rating": 4.9,
+    "quantity": 8,
+    "detail": "Train to be a Jedi with the Yoda action figure. This toy features Yoda in his wise and powerful stance, complete with a lightsaber accessory."
+  },
+  {
+    "picture": "https://i.ibb.co/TgTtwNr/Bumblebee1.jpg",
+    "name": "Bumblebee Action Figure",
+    "seller": {
+      "name": "AutoBots Haven",
+      "email": "sales@autobotshaven.com"
+    },
+    "category": "Action Figures",
+    "price": 27.99,
+    "rating": 4.4,
+    "quantity": 14,
+    "detail": "Join the Autobots with the Bumblebee action figure. This Transformers toy showcases the beloved Autobot in all its transforming glory."
+  },
+  {
+    "picture": "https://i.ibb.co/r2fgFqx/Bear1.jpg",
+    "name": "Teddy Bear Plush Toy",
+    "seller": {
+      "name": "Cuddly Creations",
+      "email": "sales@cuddlycreations.com"
+    },
+    "category": "Animal Toys",
+    "price": 14.99,
+    "rating": 4.5,
+    "quantity": 20,
+    "detail": "Embrace warmth and comfort with this adorable Teddy Bear plush toy. Soft and huggable, it's perfect for children of all ages."
+  },
+  {
+    "picture": "https://i.ibb.co/MnDQ7nH/Horse.jpg",
+    "name": "Galloping Horse Toy",
+    "seller": {
+      "name": "Horse Haven",
+      "email": "sales@horsehaven.com"
+    },
+    "category": "Animal Toys",
+    "price": 19.99,
+    "rating": 4.7,
+    "quantity": 15,
+    "detail": "Let your imagination run wild with the galloping horse toy. Realistic design and sturdy construction make it ideal for young equestrians."
+  },
+  {
+    "picture": "https://i.ibb.co/1ZbWkST/trex1.jpg",
+    "name": "T-Rex Dinosaur Toy",
+    "seller": {
+      "name": "Dino Delights",
+      "email": "sales@dinodelights.com"
+    },
+    "category": "Animal Toys",
+    "price": 24.99,
+    "rating": 4.8,
+    "quantity": 12,
+    "detail": "Roar into prehistoric adventures with the T-Rex dinosaur toy. Perfect for budding paleontologists, it features realistic details and movable limbs."
+  },
+  {
+    "picture": "https://i.ibb.co/m8NK9vv/Dog.jpg",
+    "name": "Golden Retriever Plush Toy",
+    "seller": {
+      "name": "Puppy Pals",
+      "email": "sales@puppypals.com"
+    },
+    "category": "Animal Toys",
+    "price": 17.99,
+    "rating": 4.6,
+    "quantity": 18,
+    "detail": "Bring home a loyal companion with the Golden Retriever plush toy. Soft and cuddly, it's the perfect furry friend for kids and dog lovers alike."
+  },
+  {
+    "picture": "https://i.ibb.co/gWjTWqZ/Cat.jpg",
+    "name": "Siamese Cat Plush Toy",
+    "seller": {
+      "name": "Cat Comforts",
+      "email": "sales@catcomforts.com"
+    },
+    "category": "Animal Toys",
+    "price": 16.99,
+    "rating": 4.4,
+    "quantity": 22,
+    "detail": "Indulge in the charm of a Siamese cat with this plush toy. Realistic coloring and soft fur make it a delightful addition to any cat lover's collection."
+  },
+  {
+    "picture": "https://i.ibb.co/Jvdvr56/Unicorn1.jpg",
+    "name": "Magical Unicorn Stuffed Animal",
+    "seller": {
+      "name": "Fantasy Finds",
+      "email": "sales@fantasyfinds.com"
+    },
+    "category": "Animal Toys",
+    "price": 29.99,
+    "rating": 4.9,
+    "quantity": 10,
+    "detail": "Enter a world of enchantment with this magical unicorn stuffed animal. Sparkly details and a majestic mane make it a whimsical companion for imaginative play."
+  },
+  {
+    "picture": "https://i.ibb.co/85RXBQC/Cow.jpg",
+    "name": "Moo-Moo Cow Plush Toy",
+    "seller": {
+      "name": "Farm Friends",
+      "email": "sales@farmfriends.com"
+    },
+    "category": "Animal Toys",
+    "price": 18.99,
+    "rating": 4.5,
+    "quantity": 16,
+    "detail": "Bring the farm to playtime with the Moo-Moo Cow plush toy. Soft and squeezable, it's perfect for little ones who love barnyard adventures."
+  },
+  {
+    "picture": "https://i.ibb.co/c6Vz18p/Cindrella1.jpg",
+    "name": "Cinderella Doll",
+    "seller": {
+      "name": "Enchanting Emporium",
+      "email": "sales@enchantingemporium.com"
+    },
+    "category": "Disney Toys",
+    "price": 29.99,
+    "rating": 4.7,
+    "quantity": 12,
+    "detail": "Bring the magic of Cinderella to life with this enchanting doll. Perfect for fans of the classic Disney princess, it features a beautiful gown and delicate accessories."
+  },
+  {
+    "picture": "https://i.ibb.co/8Mwcsqd/Frozen.jpg",
+    "name": "Elsa Frozen Doll",
+    "seller": {
+      "name": "Frozen Fantasy",
+      "email": "sales@frozenfantasy.com"
+    },
+    "category": "Disney Toys",
+    "price": 34.99,
+    "rating": 4.9,
+    "quantity": 10,
+    "detail": "Let it go with the Elsa Frozen doll. Inspired by Disney's Frozen, this doll showcases Elsa's iconic outfit and comes with a snowflake accessory for magical play."
+  },
+  {
+    "picture": "https://i.ibb.co/bHHV7YM/Buzz1.jpg",
+    "name": "Buzz Lightyear Toy Story Doll",
+    "seller": {
+      "name": "Toy Story Treasures",
+      "email": "sales@toystorytreasures.com"
+    },
+    "category": "Disney Toys",
+    "price": 22.99,
+    "rating": 4.5,
+    "quantity": 15,
+    "detail": "To infinity and beyond! Join the space adventures with the Buzz Lightyear Toy Story doll. With articulated joints and space-themed accessories, it's perfect for Toy Story fans."
+  },
+  {
+    "picture": "https://i.ibb.co/1d9pDGS/Minnie.jpg",
+    "name": "Minnie Mouse Plush Doll",
+    "seller": {
+      "name": "Mickey & Friends Emporium",
+      "email": "sales@mickeyandfriends.com"
+    },
+    "category": "Disney Toys",
+    "price": 19.99,
+    "rating": 4.6,
+    "quantity": 18,
+    "detail": "Bring the charm of Minnie Mouse home with this plush doll. Soft and cuddly, it's a delightful addition to any Disney collection."
+  },
+  {
+    "picture": "https://i.ibb.co/x6R00xR/Donald.jpg",
+    "name": "Donald Duck Action Figure",
+    "seller": {
+      "name": "Duck Tales Toys",
+      "email": "sales@ducktalestoys.com"
+    },
+    "category": "Disney Toys",
+    "price": 26.99,
+    "rating": 4.4,
+    "quantity": 8,
+    "detail": "Quack-tastic adventures await with the Donald Duck action figure. Join Donald on fun-filled escapades with this poseable toy."
+  },
+  {
+    "picture": "https://i.ibb.co/84JHPBS/Mermaid1.jpg",
+    "name": "Ariel Little Mermaid Doll",
+    "seller": {
+      "name": "Undersea Wonders",
+      "email": "sales@underseawonders.com"
+    },
+    "category": "Disney Toys",
+    "price": 32.99,
+    "rating": 4.8,
+    "quantity": 14,
+    "detail": "Dive into undersea adventures with the Ariel Little Mermaid doll. Inspired by Disney's classic, it features a mermaid tail and flowing red hair."
+  }
 ]
